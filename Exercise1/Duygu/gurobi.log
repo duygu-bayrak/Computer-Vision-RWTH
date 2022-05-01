@@ -1,0 +1,193 @@
+
+Gurobi 8.1.1 (win64, Python) logging started 04/27/22 13:13:46
+
+Academic license - for non-commercial use only
+Optimize a model with 350 rows, 30150 columns and 60150 nonzeros
+Variable types: 0 continuous, 30150 integer (30150 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [1e+00, 8e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 7206.0000000
+Presolve removed 0 rows and 150 columns
+Presolve time: 0.20s
+Presolved: 350 rows, 30000 columns, 60000 nonzeros
+Variable types: 0 continuous, 30000 integer (30000 binary)
+
+Root relaxation: cutoff, 246 iterations, 0.08 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0     cutoff    0      7206.00000 7206.00000  0.00%     -    0s
+
+Explored 0 nodes (246 simplex iterations) in 0.35 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 7206 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.206000000000e+03, best bound 7.206000000000e+03, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 04/27/22 13:15:35
+
+Academic license - for non-commercial use only
+Optimize a model with 350 rows, 30150 columns and 60150 nonzeros
+Variable types: 0 continuous, 30150 integer (30150 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 124.0000000
+Presolve time: 0.17s
+Presolved: 350 rows, 30150 columns, 60150 nonzeros
+Variable types: 0 continuous, 30150 integer (30150 binary)
+
+Root relaxation: objective 7.206000e+01, 1283 iterations, 0.22 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   72.06000    0   82  124.00000   72.06000  41.9%     -    1s
+H    0     0                      90.0000000   72.06000  19.9%     -    1s
+H    0     0                      79.0000000   72.06000  8.78%     -    1s
+H    0     0                      75.0000000   72.06000  3.92%     -    2s
+     0     0   72.06000    0  155   75.00000   72.06000  3.92%     -    2s
+     0     0   72.06000    0  167   75.00000   72.06000  3.92%     -    3s
+     0     0   72.06000    0   79   75.00000   72.06000  3.92%     -    4s
+     0     0   72.06000    0   78   75.00000   72.06000  3.92%     -    4s
+H    0     0                      74.0000000   72.06000  2.62%     -    5s
+     0     2   72.06000    0   78   74.00000   72.06000  2.62%     -    7s
+    28    30   72.06000    9   89   74.00000   72.06000  2.62%   460   10s
+   335   338   72.06000  124  119   74.00000   72.06000  2.62%   213   17s
+   471   472   72.06000  181  100   74.00000   72.06000  2.62%   177   21s
+H  515     9                      73.0000000   72.06000  1.29%   171   21s
+
+Cutting planes:
+  Cover: 39
+  Clique: 13
+  MIR: 25
+  StrongCG: 15
+
+Explored 531 nodes (110723 simplex iterations) in 21.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 6: 73 74 75 ... 124
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.300000000000e+01, best bound 7.300000000000e+01, gap 0.0000%
+
+Gurobi 8.1.1 (win64, Python) logging started 04/27/22 13:16:51
+
+Academic license - for non-commercial use only
+Optimize a model with 350 rows, 30150 columns and 60150 nonzeros
+Variable types: 0 continuous, 30150 integer (30150 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+02]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 138.0000000
+Presolve time: 0.19s
+Presolved: 350 rows, 30150 columns, 60150 nonzeros
+Variable types: 0 continuous, 30150 integer (30150 binary)
+
+Root relaxation: objective 9.355000e+01, 1320 iterations, 0.23 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   93.55000    0   98  138.00000   93.55000  32.2%     -    1s
+H    0     0                     109.0000000   93.55000  14.2%     -    1s
+H    0     0                     100.0000000   93.55000  6.45%     -    3s
+     0     0   93.55000    0  177  100.00000   93.55000  6.45%     -    3s
+     0     0   93.55000    0  187  100.00000   93.55000  6.45%     -    3s
+     0     0   93.55000    0  123  100.00000   93.55000  6.45%     -    5s
+     0     0   93.55000    0  112  100.00000   93.55000  6.45%     -    6s
+H    0     0                      99.0000000   93.55000  5.51%     -    7s
+     0     2   93.55000    0   99   99.00000   93.55000  5.51%     -   11s
+    22    26   93.55000    7  150   99.00000   93.55000  5.51%   389   21s
+H   27    26                      98.0000000   93.55000  4.54%   338   21s
+H   33    31                      97.0000000   93.55000  3.56%   401   21s
+   204   204   93.55000   60  136   97.00000   93.55000  3.56%   234   25s
+   666   657   94.00000  235  133   97.00000   93.55000  3.56%   144   30s
+  1032  1023   94.00000  423  142   97.00000   93.55000  3.56%   109   35s
+  1743  1734   94.00000  785  156   97.00000   93.55000  3.56%  78.9   40s
+  2304  2295   94.00000 1071  155   97.00000   93.55000  3.56%  68.3   49s
+  2306  2297   94.00000 1072  157   97.00000   93.55000  3.56%  68.2   50s
+  3126  3117   94.00000 1492  139   97.00000   93.55000  3.56%  60.6   56s
+  3710  3701   94.00000  197  112   97.00000   93.55000  3.56%  57.3   60s
+  3713  3703   94.00000  367   98   97.00000   93.55000  3.56%  57.2   82s
+  3717  3707   94.00000  381  112   97.00000   93.99000  3.10%  64.7   85s
+  3720  3709   94.00000 1331   40   97.00000   93.99000  3.10%  64.7   90s
+  3733  3719   94.14000 1269   42   97.00000   94.14000  2.95%  74.8   95s
+H 3744  3539                      96.0000000   94.14000  1.94%  74.6   99s
+  3745  3540   94.14000  731   37   96.00000   94.14000  1.94%  74.5  101s
+  3754  3539 infeasible   44        96.00000   94.14000  1.94%  86.2  105s
+  3760  3537   94.14000   47   42   96.00000   94.14000  1.94%  86.1  111s
+  3764  3536   94.14000   49   45   96.00000   94.14000  1.94%  86.2  115s
+  3770  3534 infeasible   52        96.00000   94.14000  1.94%  86.4  121s
+  3772  3533   94.14000   53   40   96.00000   94.14000  1.94%  86.4  126s
+  3776  3532   94.14000   55   54   96.00000   94.14000  1.94%  86.6  130s
+  3782  3530 infeasible   58        96.00000   94.14000  1.94%  86.8  137s
+  3786  3528 infeasible   60        96.00000   94.14000  1.94%  86.7  141s
+  3792  3526   94.14000   63   76   96.00000   94.14000  1.94%  86.7  147s
+  3794  3528   94.26000   64   76   96.00000   94.14000  1.94%  87.1  156s
+  3800  3524   94.14000   66   73   96.00000   94.14000  1.94%  87.1  168s
+  3802  3525   94.46000   67   84   96.00000   94.14000  1.94%  87.9  177s
+  3804  3522 infeasible   68        96.00000   94.14000  1.94%  87.9  180s
+  3812  3520   94.14000   71   79   96.00000   94.14000  1.94%  88.1  189s
+  3814  3521   94.14000   72   78   96.00000   94.14000  1.94%  88.2  192s
+  3816  3522   94.48000   73   72   96.00000   94.14000  1.94%  88.3  196s
+  3824  3518   94.14000   74   77   96.00000   94.14000  1.94%  88.3  200s
+  3826  3517   94.14000   75   80   96.00000   94.14000  1.94%  88.2  210s
+  3830  3516 infeasible   76        96.00000   95.00000  1.04%  88.3  216s
+  3834  3514   95.00000   77   69   96.00000   95.00000  1.04%  88.3  220s
+  3843  3510   95.00000   79   67   96.00000   95.00000  1.04%  88.3  226s
+  3851  3510   95.00000   81   62   96.00000   95.00000  1.04%  88.3  231s
+  3857  3511 infeasible   82        96.00000   95.00000  1.04%  88.3  238s
+  3864  3508 infeasible   84        96.00000   95.00000  1.04%  88.3  243s
+  3870  3504   95.00000   85   48   96.00000   95.00000  1.04%  88.3  246s
+  3881  3507   95.00000   86   42   96.00000   95.00000  1.04%  88.1  268s
+  3888  3502   95.00000   88   46   96.00000   95.00000  1.04%  88.3  275s
+  3898  3505   95.00000   89   44   96.00000   95.00000  1.04%  88.3  280s
+
+Gurobi 8.1.1 (win64, Python) logging started 04/27/22 13:38:00
+
+Academic license - for non-commercial use only
+Optimize a model with 350 rows, 30001 columns and 60150 nonzeros
+Variable types: 1 continuous, 30000 integer (30000 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 8e+01]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 193.0000000
+Presolve time: 0.22s
+Presolved: 350 rows, 30001 columns, 60150 nonzeros
+Variable types: 0 continuous, 30001 integer (30000 binary)
+
+Root relaxation: objective 4.804000e+01, 1084 iterations, 0.20 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   48.04000    0  239  193.00000   48.04000  75.1%     -    1s
+H    0     0                      75.0000000   48.04000  35.9%     -    1s
+
+Cutting planes:
+  Cover: 19
+  Clique: 1
+  MIR: 11
+  StrongCG: 14
+  Zero half: 14
+
+Explored 1 nodes (5923 simplex iterations) in 1.86 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 75 193 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 7.500000000000e+01, best bound 7.500000000000e+01, gap 0.0000%
